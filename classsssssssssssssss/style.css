@@ -1,0 +1,34 @@
+.first{
+   border: 2px black;
+}
+.container{
+    border: 1px solid red;
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.row{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.first, .second, .third , .four , .five , .six {
+    display: flex;
+    width: 100px;
+}
+#screen{
+    height: 50px;
+}
